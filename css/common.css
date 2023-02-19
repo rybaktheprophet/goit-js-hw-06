@@ -23,8 +23,15 @@ button {
   cursor: pointer;
 }
 
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
 .gallery__photo {
-  max-width: 99vw;
+  width: 75vw;
   object-fit: contain;
   display: block;
 }

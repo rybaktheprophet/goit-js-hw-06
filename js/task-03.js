@@ -20,7 +20,5 @@ const imageUrlList = images
   )
   .join("");
 
-console.log(imageUrlList);
-
 const gallery = document.querySelector(".gallery");
 gallery.insertAdjacentHTML("afterbegin", imageUrlList);
